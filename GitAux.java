@@ -9,7 +9,7 @@ package prgitejemplo;
  */
 public class GitAux {
     public void metodoAlumno1(){
-    	System.out.println("metodo 1, eso");
+    	System.out.println("metodo 1");
     }
     
     public void metodoAlumno2(){
@@ -21,5 +21,17 @@ public class GitAux {
         System.out.println("Aqui escribimos todos");
     }
 
-    //nuevo
+
+    public void testGitAux(){
+	// metodo rama testing
+
+	System.out.println("Metodo de testing");    
+    }  	
+
+    public void testGitAux(){
+    	//metodo rama testing
+    	System.out.println("Metodo de testing");
+    }
+
+
 }
