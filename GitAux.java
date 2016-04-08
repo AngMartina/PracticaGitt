@@ -10,7 +10,8 @@ package prgitejemplo;
 public class GitAux {
     public void metodoAlumno1(){
     	System.out.println("metodo 1");
-    }
+	System.out.println("modificado por el alumno1"); // alumno1
+}
     
     public void metodoAlumno2(){
         System.out.println("metodo 2");
@@ -31,6 +32,8 @@ public class GitAux {
     public void testGitAux(){
     	//metodo rama testing
     	System.out.println("Metodo de testing");
+    	//modificaciones alumno1
+	System.out.println("Alumno1 inserta esta sentencia");
     }
 
 
